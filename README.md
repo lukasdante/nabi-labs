@@ -1,3 +1,9 @@
+# Nabi
+
+This is a forked repository from Isaac Lab for Nabi. The scene set-ups are found in `nabi/`. The URDF files of the base robot arm Arctos are found in `arctos/` along with its implementation in ROS 1 Melodic and MoveIt IK control.
+
+---
+
 ![Isaac Lab](docs/source/_static/isaaclab.jpg)
 
 ---
