@@ -201,11 +201,11 @@ def run_simulator(sim: sim_utils.SimulationContext, entities: dict[str, RigidObj
     robot = entities["arm"]
 
     # define simulation stepping
-    sim_dt = sim.get_physics_dt()
-    sim_time = 0.0
-    count = 0
+    # sim_dt = sim.get_physics_dt()
+    # sim_time = 0.0
+    # count = 0
 
-    desired_joint_pos = torch.tensor([[0.0, 50.0, 50.0, 0.0, 0.0, 0.0, 0.0, 0.0]])
+    # desired_joint_pos = torch.tensor([[0.0, 50.0, 50.0, 0.0, 0.0, 0.0, 0.0, 0.0]])
 
     # simulate physics
 
